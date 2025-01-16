@@ -1,4 +1,4 @@
-namespace Z.Tool.Anvil.NodeListGen;
+namespace Z.Tool.Anvil.NodeList;
 
 class Entry : EntryEntry
 {
