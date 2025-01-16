@@ -149,6 +149,26 @@ VarName : Node
 
 TypeName : Node
 
+IntTypeName : TypeName
+    Int Kind
+
+StructTypeName : TypeName
+    ClassName Class
+    StructName Struct
+
+ValueStructTypeName : TypeName
+    ClassName Class
+    StructName Struct
+
+ArrayStructTypeName : TypeName
+    ClassName Class
+    StructName Struct
+    IntValue Count
+
+ArrayIntTypeName : TypeName
+    Int Kind
+    IntValue Count
+
 SameOperate : Operate
     Operate Lite
     Operate Rite
@@ -184,15 +204,15 @@ DivOperate : Operate
     Operate Lite
     Operate Rite
 
+SignLessOperate : Operate
+    Operate Lite
+    Operate Rite
+
 SignMulOperate : Operate
     Operate Lite
     Operate Rite
 
 SignDivOperate : Operate
-    Operate Lite
-    Operate Rite
-
-SignLessOperate : Operate
     Operate Lite
     Operate Rite
 
