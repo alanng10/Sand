@@ -9,4 +9,12 @@ public class Gen : ClassGen
         a.Init();
         return a;
     }
+
+    protected override ClassNodeGen CreateNodeGen()
+    {
+        ClassNodeGen a;
+        a = new NodeGen();
+        a.Init();
+        return a;
+    }
 }
