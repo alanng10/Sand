@@ -75,15 +75,18 @@ Mark : Node
 VarMark : Mark
     VarName Var
 
-SetMark : Mark
+StructVarMark : Mark
     Operate This
-    FieldName Field
+    VarName Var
 
 Operate : Node
 
-GetOperate : Operate
+VarOperate : Operate
+    VarName Var
+
+StructVarOperate : Operate
     Operate This
-    FieldName Field
+    VarName Var
 
 CallOperate : Operate
     Operate This
@@ -105,9 +108,6 @@ ShareOperate : Operate
 CastOperate : Operate
     ClassName Class
     Operate Any
-
-VarOperate : Operate
-    VarName Var
 
 ValueOperate : Operate
     Value Value
