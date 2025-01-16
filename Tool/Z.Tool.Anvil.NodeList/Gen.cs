@@ -57,4 +57,12 @@ public class Gen : ClassGen
         a.Init();
         return a;
     }
+
+    protected override ClassTravelClassPathGen CreateTravelClassPathGen()
+    {
+        ClassTravelClassPathGen a;
+        a = new TravelClassPathGen();
+        a.Init();
+        return a;
+    }
 }
