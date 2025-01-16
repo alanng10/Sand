@@ -79,6 +79,10 @@ StructVarMark : Mark
     Operate This
     VarName Var
 
+GlobVarMark : Mark
+    ClassName Class
+    VarName Var
+
 Operate : Node
 
 VarOperate : Operate
@@ -86,6 +90,10 @@ VarOperate : Operate
 
 StructVarOperate : Operate
     Operate This
+    VarName Var
+
+GlobVarOperate : Operate
+    ClassName Class
     VarName Var
 
 CallOperate : Operate
