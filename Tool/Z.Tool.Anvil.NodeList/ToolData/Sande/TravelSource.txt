@@ -1,9 +1,0 @@
-namespace Saber.Node;
-
-public class Travel : Any
-{
-#NodeList#    protected virtual bool ExecuteNode(Node node)
-    {
-        return true;
-    }
-}
