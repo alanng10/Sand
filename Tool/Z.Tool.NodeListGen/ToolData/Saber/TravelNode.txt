@@ -1,0 +1,9 @@
+    public #Virtual# bool Execute#ClassName#(#DeclareClassName# #VarName#)
+    {
+        if (#VarName# == null)
+        {
+            return true;
+        }
+#State#        return true;
+    }
+

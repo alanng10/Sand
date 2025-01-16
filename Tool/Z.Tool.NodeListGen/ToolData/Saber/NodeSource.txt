@@ -1,0 +1,5 @@
+namespace Saber.Node;
+
+public class #ClassName# : #BaseClassName#
+{
+#FieldList#}
