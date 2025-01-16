@@ -17,4 +17,12 @@ public class Gen : ClassGen
         a.Init();
         return a;
     }
+
+    protected override ClassNewStateGen CreateNewStateGen()
+    {
+        ClassNewStateGen a;
+        a = new NewStateGen();
+        a.Init();
+        return a;
+    }
 }
