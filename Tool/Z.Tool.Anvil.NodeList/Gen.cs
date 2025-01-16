@@ -41,4 +41,12 @@ public class Gen : ClassGen
         a.Init();
         return a;
     }
+
+    protected override ClassNodeKindListGen CreateNodeKindListGen()
+    {
+        ClassNodeKindListGen a;
+        a = new NodeKindListGen();
+        a.Init();
+        return a;
+    }
 }
