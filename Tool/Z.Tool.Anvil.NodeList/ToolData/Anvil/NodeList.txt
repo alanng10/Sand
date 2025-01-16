@@ -138,7 +138,7 @@ StringValue : Value
 ClassName : Node
     String Value
 
-FieldName : Node
+StructName : Node
     String Value
 
 MaideName : Node
@@ -146,6 +146,8 @@ MaideName : Node
 
 VarName : Node
     String Value
+
+TypeName : Node
 
 SameOperate : Operate
     Operate Lite
