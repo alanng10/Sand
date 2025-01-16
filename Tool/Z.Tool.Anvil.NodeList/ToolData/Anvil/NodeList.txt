@@ -1,6 +1,5 @@
 Class : Node
     ClassName Name
-    ClassName Base
     Part Part
 
 Part : Node
@@ -8,32 +7,35 @@ Part : Node
 
 Comp : Node
 
-Field : Comp
-    ClassName Class
-    FieldName Name
+Struct : Comp
+    StructName Name
     Count Count
-    State Get
-    State Set
+    StructPart Part
+
+Glob : Comp
+    Count Count
+    Var Var
 
 Maide : Comp
-    ClassName Class
+    TypeName Type
     MaideName Name
     Count Count
     Param Param
     State Call
 
+StructPart : Node
+    Array Var Value
+
 Param : Node
     Array Var Value
 
 Var : Node
-    ClassName Class
+    TypeName Type
     VarName Name
 
 Count : Node
 
 PrusateCount : Count
-
-PrecateCount : Count
 
 PronateCount : Count
 
