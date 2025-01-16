@@ -7,8 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="../../../Class/Tool/Z.Infra.NodeListGen/Z.Infra.NodeListGen.csproj" />
+        <ProjectReference Include="../../../Class/Avalon/Avalon.Entry/Avalon.Entry.csproj" />
         <ProjectReference Include="../../../Class/Saber/Saber.Infra/Saber.Infra.csproj" />
+        <ProjectReference Include="../../../Class/Tool/Z.Infra.NodeListGen/Z.Infra.NodeListGen.csproj" />
     </ItemGroup>
 
     <ItemGroup>
