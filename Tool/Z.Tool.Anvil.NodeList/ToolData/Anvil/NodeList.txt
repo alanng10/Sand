@@ -101,20 +101,10 @@ CallOperate : Operate
     MaideName Maide
     Argue Argue
 
-ThisOperate : Operate
-
-BaseOperate : Operate
-
 NullOperate : Operate
 
-NewOperate : Operate
-    ClassName Class
-
-ShareOperate : Operate
-    ClassName Class
-
 CastOperate : Operate
-    ClassName Class
+    TypeName Class
     Operate Any
 
 ValueOperate : Operate
@@ -129,15 +119,17 @@ BoolValue : Value
     Bool Value
 
 IntValue : Value
+
+IntDecValue : IntValue
     Int Value
 
-IntSignValue : Value
+IntDecSignValue : IntValue
     Int Value
 
-IntHexValue : Value
+IntHexValue : IntValue
     Int Value
 
-IntHexSignValue : Value
+IntHexSignValue : IntValue
     Int Value
 
 StringValue : Value
