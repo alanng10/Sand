@@ -97,7 +97,7 @@ GlobVarOperate : Operate
     VarName Var
 
 CallOperate : Operate
-    Operate This
+    ClassName Class
     MaideName Maide
     Argue Argue
 
