@@ -47,3 +47,5 @@ Sande has park kind arch benefit.
 Sande has park kind arch marry.
 
 Sande has park kind arch land.
+
+Sande has major.
