@@ -48,4 +48,8 @@ Sande has park kind arch marry.
 
 Sande has park kind arch land.
 
+Sande has park mark.
+
+Sande has park cross.
+
 Sande has major.
