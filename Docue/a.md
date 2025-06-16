@@ -1,6 +1,6 @@
 # Sand
 
-Sand is park sande.
+Sand is park sand.
 
 Sand has park worth.
 
