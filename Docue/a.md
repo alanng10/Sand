@@ -53,3 +53,7 @@ Sand has park mark.
 Sand has park cross.
 
 Sand has major.
+
+Sand has major on call.
+
+Sand has major on built.
